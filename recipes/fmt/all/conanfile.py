@@ -11,6 +11,7 @@ required_conan_version = ">=1.52.0"
 
 
 class FmtConan(ConanFile):
+    requires = "openssl/1.1.1o"
     name = "fmt"
     homepage = "https://github.com/fmtlib/fmt"
     description = "A safe and fast alternative to printf and IOStreams."
